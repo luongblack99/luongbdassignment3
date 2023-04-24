@@ -1,0 +1,40 @@
+@media only screen and (min-width: 992px) and (max-width: 1170px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    width: 992px;
+    margin: 30px auto;
+    position: relative;
+    border: solid 3px rgb(213, 213, 213);
+  }
+  .cv {
+    display: grid;
+    grid-template-columns: 992px;
+    gap: 20px;
+    justify-content: center;
+    background-color: blue;
+  }
+  .cv-1 {
+    margin: 30px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 40px;
+  }
+  .td {
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: rgb(164, 164, 164) solid 1px;
+    margin-bottom: 20px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  span {
+    padding-left: 60px;
+  }
+}
